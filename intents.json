@@ -1,0 +1,317 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "What's up",
+        "Yo",
+        "Hi bot",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I help with your studying today?",
+        "Hi there! Ready to learn something?",
+        "Hey! What are we studying today?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "I'm leaving"
+      ],
+      "responses": [
+        "Goodbye! Keep up the great work!",
+        "See you later — stay productive!",
+        "Bye! Come back anytime you need help studying."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it",
+        "That helped"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime — I'm here for your study needs!"
+      ]
+    },
+
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "How can I study better?",
+        "Give me study tips",
+        "How do I focus?",
+        "Help me study",
+        "How to memorize things?",
+        "How can I improve my learning?",
+        "Best study techniques?",
+        "How do I stop procrastinating on studying?"
+      ],
+      "responses": [
+        "A great technique is the Pomodoro method: 25 minutes studying, 5 minutes break.",
+        "Try active recall: test yourself instead of just rereading.",
+        "Spaced repetition boosts long-term memory!",
+        "Studying in small, consistent sessions works better than long, infrequent ones."
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "I need motivation",
+        "I'm tired of studying",
+        "How do I stay motivated?",
+        "Help me push through studying"
+      ],
+      "responses": [
+        "You're capable of more than you think — keep going!",
+        "One small step today puts you far ahead tomorrow.",
+        "Remember why you started. You're on the right track!"
+      ]
+    },
+
+    {
+      "tag": "study_schedule",
+      "patterns": [
+        "Make a study schedule",
+        "Create a study plan",
+        "Help me organize my study time",
+        "I need a timetable",
+        "Plan my study hours"
+      ],
+      "responses": [
+        "Start by listing your subjects and assigning 1–2 focused hours per day.",
+        "Use 3 blocks: learning, practicing, and reviewing.",
+        "Break tasks into small chunks and place them into a weekly schedule."
+      ]
+    },
+
+    {
+      "tag": "productivity",
+      "patterns": [
+        "How do I be productive?",
+        "Productivity tips",
+        "Help me get things done",
+        "I feel distracted",
+        "I can't focus"
+      ],
+      "responses": [
+        "Turn off notifications and set a 25-minute timer.",
+        "Clean your study space — a tidy desk boosts focus.",
+        "Set one clear goal for each study session."
+      ]
+    },
+
+    {
+      "tag": "time_management",
+      "patterns": [
+        "How do I manage my time?",
+        "Time management tips?",
+        "I run out of time",
+        "I can't manage my study time"
+      ],
+      "responses": [
+        "Prioritize tasks using the 1–3 method: 1 big, 3 medium tasks daily.",
+        "Plan your day the night before and keep it realistic.",
+        "Avoid multitasking — focus on one thing at a time."
+      ]
+    },
+
+    {
+      "tag": "exam_tips",
+      "patterns": [
+        "How do I prepare for exams?",
+        "Exam study tips",
+        "Help me prepare for a test",
+        "How do I study before an exam?"
+      ],
+      "responses": [
+        "Review past exams — patterns repeat.",
+        "Summarize chapters in your own words.",
+        "Simulate the exam environment with timed practice."
+      ]
+    },
+
+    {
+      "tag": "stress_help",
+      "patterns": [
+        "I'm stressed",
+        "Studying stresses me out",
+        "School makes me anxious",
+        "Test anxiety",
+        "I'm overwhelmed"
+      ],
+      "responses": [
+        "Take a deep breath — small breaks help reduce stress.",
+        "Try a 5-minute walk to clear your mind.",
+        "Break your task into the smallest possible step and start there."
+      ]
+    },
+
+    {
+      "tag": "math_help",
+      "patterns": [
+        "I need help with math",
+        "Math is hard",
+        "How to get better at math?",
+        "How to practice math?"
+      ],
+      "responses": [
+        "Practice is key — math improves with repetition.",
+        "Break down problems and solve step-by-step.",
+        "Try solving 3–5 problems daily to stay sharp."
+      ]
+    },
+
+    {
+      "tag": "science_help",
+      "patterns": [
+        "I need help with science",
+        "How to study science?",
+        "Science tips",
+        "How do I understand physics?"
+      ],
+      "responses": [
+        "Focus on concepts first before formulas.",
+        "Use diagrams and visuals — science is very visual!",
+        "Teach the topic to someone else to reinforce your understanding."
+      ]
+    },
+
+    {
+      "tag": "history_help",
+      "patterns": [
+        "How do I study history?",
+        "History tips",
+        "History is boring",
+        "How to remember history dates?"
+      ],
+      "responses": [
+        "Turn dates into timelines to visualize events.",
+        "Understand cause-effect, not just memorization.",
+        "Stories stick better than pure numbers."
+      ]
+    },
+
+    {
+      "tag": "languages_help",
+      "patterns": [
+        "How do I learn a language?",
+        "Help me practice languages",
+        "Language learning tips",
+        "How to get better at English?"
+      ],
+      "responses": [
+        "Immerse yourself: listen, speak, read a little every day.",
+        "Use spaced repetition for vocabulary.",
+        "Practice speaking — even 5 minutes helps!"
+      ]
+    },
+
+    {
+      "tag": "breaks",
+      "patterns": [
+        "Should I take breaks?",
+        "How often should I take breaks?",
+        "Break advice",
+        "I'm tired"
+      ],
+      "responses": [
+        "Short breaks every 25 minutes help your brain reset.",
+        "Move around, stretch, or grab water — your brain will thank you.",
+        "Breaks prevent burnout and improve retention."
+      ]
+    },
+
+    {
+      "tag": "sleep",
+      "patterns": [
+        "How much sleep do I need?",
+        "I'm tired from studying",
+        "Does sleep help studying?",
+        "I'm sleepy while studying"
+      ],
+      "responses": [
+        "7–9 hours is ideal for most people.",
+        "Sleep turns short-term study into long-term memory.",
+        "If you're tired, take a short rest — your brain needs energy too."
+      ]
+    },
+
+    {
+      "tag": "resources",
+      "patterns": [
+        "Give me study resources",
+        "Any good websites for studying?",
+        "Where can I learn online?",
+        "Study tools?"
+      ],
+      "responses": [
+        "Khan Academy is great for math & science.",
+        "Coursera and Udemy have courses on almost any topic.",
+        "Quizlet is perfect for flashcards and memorization practice."
+      ]
+    },
+
+    {
+      "tag": "fun_facts",
+      "patterns": [
+        "Tell me something interesting",
+        "Fun fact",
+        "Give me a cool fact"
+      ],
+      "responses": [
+        "Did you know? Your brain uses about 20% of your body's energy!",
+        "Fun fact: Writing things down boosts memory more than typing.",
+        "The 'spacing effect' proves that studying over time beats cramming."
+      ]
+    },
+
+    {
+      "tag": "encouragement",
+      "patterns": [
+        "I'm not good enough",
+        "I feel dumb",
+        "I can't do this",
+        "Studying is too hard"
+      ],
+      "responses": [
+        "You're doing better than you think.",
+        "Every expert was once a beginner — keep going.",
+        "You’re smarter than you realize. One step at a time!"
+      ]
+    },
+
+    {
+      "tag": "default",
+      "patterns": [
+        "random text",
+        "I don't know",
+        "???",
+        "What do you do?"
+      ],
+      "responses": [
+        "I'm StudyBuddyML — I help you study smarter! Ask me anything about learning, focus, or motivation.",
+        "I’m here to help you stay productive and improve your studying!"
+      ]
+    }
+  ]
+}
