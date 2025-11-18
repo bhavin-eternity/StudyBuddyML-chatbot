@@ -57,7 +57,7 @@ A simple, fast, and effective ML-based chatbot workflow.
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/<your-username>/StudyBuddyML
+git clone https://github.com/bhavin-eternity/StudyBuddyML
 cd StudyBuddyML
 ```
 ```
